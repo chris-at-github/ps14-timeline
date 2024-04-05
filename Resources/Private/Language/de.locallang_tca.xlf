@@ -13,6 +13,9 @@
 			<trans-unit id="elements.record-type.default">
 				<target>Default</target>
 			</trans-unit>
+			<trans-unit id="elements.date">
+				<target>Datum</target>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

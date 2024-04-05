@@ -63,7 +63,7 @@ $GLOBALS['TCA']['tt_content']['types']['ps14_timeline']['columnsOverrides']['tx_
 			'showitem' => \Ps14\Site\Service\TcaService::getShowitem(
 				['general', 'appearance', 'access'],
 				[
-					'general' => '--palette--;;general, --palette--;;header, description, media,'
+					'general' => '--palette--;;general, tx_timeline_date, --palette--;;header, description, media,'
 				],
 				'tx_foundation_domain_model_elements'
 			)
