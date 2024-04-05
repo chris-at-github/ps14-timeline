@@ -1,8 +1,8 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = [
-	'title' => 'Ps14 Modulor',
-	'description' => 'TYPO3 Extension serves as a template for TYPO3 modules',
+	'title' => 'Ps14 Timeline',
+	'description' => 'TYPO3 extension for easy integration and display of a timeline on a website, presenting events, projects, or other content in chronological order.',
 	'category' => 'distribution',
 	'author' => 'Christian Pschorr',
 	'author_email' => 'pschorr.christian@gmail.com',

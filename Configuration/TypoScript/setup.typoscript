@@ -1,35 +1,35 @@
 // ---------------------------------------------------------------------------------------------------------------------
 // tt_content Definition
 tt_content {
-	ps14_modulor =< lib.contentElement
-	ps14_modulor {
-		templateName = Modulor.html
+	ps14_timeline =< lib.contentElement
+	ps14_timeline {
+		templateName = Timeline.html
 		layoutRootPaths {
-			10 = EXT:ps14_modulor/Resources/Private/Layouts/
-			20 = EXT:ps14_site/Resources/Private/Extensions/Modulor/Layouts/
+			10 = EXT:ps14_timeline/Resources/Private/Layouts/
+			20 = EXT:ps14_site/Resources/Private/Extensions/Timeline/Layouts/
 		}
 
 		templateRootPaths {
-			10 = EXT:ps14_modulor/Resources/Private/Templates/
-			20 = EXT:ps14_site/Resources/Private/Extensions/Modulor/Templates/
+			10 = EXT:ps14_timeline/Resources/Private/Templates/
+			20 = EXT:ps14_site/Resources/Private/Extensions/Timeline/Templates/
 		}
 
 		partialRootPaths {
-			10 = EXT:ps14_modulor/Resources/Private/Partials/
-			20 = EXT:ps14_site/Resources/Private/Extensions/Modulor/Partials/
+			10 = EXT:ps14_timeline/Resources/Private/Partials/
+			20 = EXT:ps14_site/Resources/Private/Extensions/Timeline/Partials/
 			30 = EXT:ps14_foundation/Resources/Private/Partials/
 			40 = EXT:ps14_site/Resources/Private/Partials/
 		}
 
 		dataProcessing {
-			200 = Ps14\Modulor\DataProcessing\ModuleProcessor
+			200 = Ps14\Timeline\DataProcessing\ModuleProcessor
 			200 {
 				importCss {
-					10 = /assets/css/modules/modulor.css
+					10 = /assets/css/modules/timeline.css
 				}
 
 				importJs {
-					10 = /assets/js/modules/modulor.js
+					10 = /assets/js/modules/timeline.js
 				}
 			}
 		}
@@ -38,7 +38,7 @@ tt_content {
 
 // ---------------------------------------------------------------------------------------------------------------------
 // Settings
-plugin.tx_ps14modulor {
+plugin.tx_ps14timeline {
 	settings {
 		images {
 			main {
